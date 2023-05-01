@@ -39,7 +39,7 @@ body div {
     }
 
     body div {
-        border: 1px solid white;
+        letter-spacing: .2rem;
         font-size: 4vw;
         margin: auto;
         left: 25%;
