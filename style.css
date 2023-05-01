@@ -20,16 +20,16 @@ body {
     overflow: hidden;
 }
 
-body p {
+body div {
     position: absolute;
-    top: 3%;
-    left: 2%;
+    top: 93%;
+    left: 3%;
     color: white;
     font-size: 2rem;
     letter-spacing: .5rem;
 }
 
-@media only screen and (max-width: 1177px) {
+@media only screen and (max-width: 767px) {
     body {
         background-image: url('images/comming_soon_mobile.jpg');
         background-repeat: no-repeat;
@@ -38,7 +38,10 @@ body p {
         overflow: hidden;
     }
 
-    body p {
-        font-size: 1.5rem;
+    body div {
+        border: 1px solid white;
+        font-size: 4vw;
+        margin: auto;
+        left: 25%;
     }
 }
